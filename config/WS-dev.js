@@ -321,8 +321,8 @@ var config = {
         // whether the affected tables for a given SQL must query directly postgresql or use the SQL API
         cdbQueryTablesFromPostgres: true,
         // whether in mapconfig is available stats & metadata for each layer
-        layerMetadata: true
-
+        layerMetadata: true,
+        layerStats: true
     }
 };
 
