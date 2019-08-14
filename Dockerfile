@@ -109,6 +109,8 @@ RUN useradd -m -d /home/cartodb -s /bin/bash cartodb && \
     net-tools \
     ruby2.5-dev \
     xz-utils \
+    vim \
+    bash-completion \
   --no-install-recommends && \
   rm -rf /var/lib/apt/lists/*
 
